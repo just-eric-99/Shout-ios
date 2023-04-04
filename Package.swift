@@ -5,9 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "Shout",
-    platforms: [
-        .macOS(.v10_10)
-    ],
     products: [
         .library(name: "Shout", targets: ["Shout"]),
     ],
